@@ -1,0 +1,1657 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>black-dashboard-angular documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	      <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">black-dashboard-angular documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li>AuthLayoutComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li >
+            <a href="#templateData" role="tab" id="templateData-tab" data-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li >
+            <a href="#styleData" role="tab" id="styleData-tab" data-toggle="tab" data-link="style">Styles</a>
+        </li>
+        <li >
+            <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/layouts/auth-layout/auth-layout.component.ts</code>
+</p>
+
+
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                    <code><a href="https://angular.io/api/core/OnInit" target="_blank" >OnInit</a></code>
+                    <code><a href="https://angular.io/api/core/OnDestroy" target="_blank" >OnDestroy</a></code>
+    </p>
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-auth-layout</code></td>
+            </tr>
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>./auth-layout.component.scss</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./auth-layout.component.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#closeResult">closeResult</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#isCollapsed">isCollapsed</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#menuItems">menuItems</a>
+                            </li>
+                            <li>
+                                <a href="#mobile_menu_visible">mobile_menu_visible</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#sidebarColor">sidebarColor</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#sidebarVisible">sidebarVisible</a>
+                            </li>
+                            <li>
+                                <a href="#test">test</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#toggleButton">toggleButton</a>
+                            </li>
+                            <li>
+                                <a href="#updateColor">updateColor</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#changeDashboardColor">changeDashboardColor</a>
+                            </li>
+                            <li>
+                                <a href="#changeSidebarColor">changeSidebarColor</a>
+                            </li>
+                            <li>
+                                <a href="#collapse">collapse</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#getDismissReason">getDismissReason</a>
+                            </li>
+                            <li>
+                                <a href="#ngOnDestroy">ngOnDestroy</a>
+                            </li>
+                            <li>
+                                <a href="#ngOnInit">ngOnInit</a>
+                            </li>
+                            <li>
+                                <a href="#open">open</a>
+                            </li>
+                            <li>
+                                <a href="#sidebarClose">sidebarClose</a>
+                            </li>
+                            <li>
+                                <a href="#sidebarOpen">sidebarOpen</a>
+                            </li>
+                            <li>
+                                <a href="#sidebarToggle">sidebarToggle</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(router: <a href="https://angular.io/api/router/Router" target="_blank">Router</a>, modalService: NgbModal)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="19" class="link-to-prism">src/app/layouts/auth-layout/auth-layout.component.ts:19</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>router</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="https://angular.io/api/router/Router" target="_blank" >Router</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>modalService</td>
+                                                  
+                                                        <td>
+                                                                    <code>NgbModal</code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+
+
+
+
+    <section>
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="changeDashboardColor"></a>
+                    <span class="name">
+                        <b>
+                            changeDashboardColor
+                        </b>
+                        <a href="#changeDashboardColor"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>changeDashboardColor(color)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="36"
+                            class="link-to-prism">src/app/layouts/auth-layout/auth-layout.component.ts:36</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>color</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="changeSidebarColor"></a>
+                    <span class="name">
+                        <b>
+                            changeSidebarColor
+                        </b>
+                        <a href="#changeSidebarColor"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>changeSidebarColor(color)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="23"
+                            class="link-to-prism">src/app/layouts/auth-layout/auth-layout.component.ts:23</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>color</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="collapse"></a>
+                    <span class="name">
+                        <b>
+                            collapse
+                        </b>
+                        <a href="#collapse"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>collapse()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="92"
+                            class="link-to-prism">src/app/layouts/auth-layout/auth-layout.component.ts:92</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getDismissReason"></a>
+                    <span class="name">
+                        <b>
+                            <span class="modifier">Private</span>
+                            getDismissReason
+                        </b>
+                        <a href="#getDismissReason"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>getDismissReason(reason: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="203"
+                            class="link-to-prism">src/app/layouts/auth-layout/auth-layout.component.ts:203</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>reason</td>
+                                    <td>
+                                                <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngOnDestroy"></a>
+                    <span class="name">
+                        <b>
+                            ngOnDestroy
+                        </b>
+                        <a href="#ngOnDestroy"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngOnDestroy()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="84"
+                            class="link-to-prism">src/app/layouts/auth-layout/auth-layout.component.ts:84</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngOnInit"></a>
+                    <span class="name">
+                        <b>
+                            ngOnInit
+                        </b>
+                        <a href="#ngOnInit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngOnInit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="56"
+                            class="link-to-prism">src/app/layouts/auth-layout/auth-layout.component.ts:56</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="open"></a>
+                    <span class="name">
+                        <b>
+                            open
+                        </b>
+                        <a href="#open"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>open(content)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="195"
+                            class="link-to-prism">src/app/layouts/auth-layout/auth-layout.component.ts:195</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>content</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="sidebarClose"></a>
+                    <span class="name">
+                        <b>
+                            sidebarClose
+                        </b>
+                        <a href="#sidebarClose"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>sidebarClose()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="122"
+                            class="link-to-prism">src/app/layouts/auth-layout/auth-layout.component.ts:122</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="sidebarOpen"></a>
+                    <span class="name">
+                        <b>
+                            sidebarOpen
+                        </b>
+                        <a href="#sidebarOpen"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>sidebarOpen()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="104"
+                            class="link-to-prism">src/app/layouts/auth-layout/auth-layout.component.ts:104</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="sidebarToggle"></a>
+                    <span class="name">
+                        <b>
+                            sidebarToggle
+                        </b>
+                        <a href="#sidebarToggle"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>sidebarToggle()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="137"
+                            class="link-to-prism">src/app/layouts/auth-layout/auth-layout.component.ts:137</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+    <section>
+    
+        <h3 id="inputs">
+            Properties
+        </h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="closeResult"></a>
+                        <span class="name">
+                            <b>
+                            closeResult</b>
+                            <a href="#closeResult"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="14" class="link-to-prism">src/app/layouts/auth-layout/auth-layout.component.ts:14</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="isCollapsed"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Public</span>
+                            isCollapsed</b>
+                            <a href="#isCollapsed"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>true</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="16" class="link-to-prism">src/app/layouts/auth-layout/auth-layout.component.ts:16</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="menuItems"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Public</span>
+                            menuItems</b>
+                            <a href="#menuItems"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code>any[]</code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="12" class="link-to-prism">src/app/layouts/auth-layout/auth-layout.component.ts:12</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="mobile_menu_visible"></a>
+                        <span class="name">
+                            <b>
+                            mobile_menu_visible</b>
+                            <a href="#mobile_menu_visible"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>0</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="17" class="link-to-prism">src/app/layouts/auth-layout/auth-layout.component.ts:17</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="sidebarColor"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Public</span>
+                            sidebarColor</b>
+                            <a href="#sidebarColor"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>&quot;red&quot;</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="15" class="link-to-prism">src/app/layouts/auth-layout/auth-layout.component.ts:15</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="sidebarVisible"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Private</span>
+                            sidebarVisible</b>
+                            <a href="#sidebarVisible"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="19" class="link-to-prism">src/app/layouts/auth-layout/auth-layout.component.ts:19</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="test"></a>
+                        <span class="name">
+                            <b>
+                            test</b>
+                            <a href="#test"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date" target="_blank" >Date</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>new Date()</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="13" class="link-to-prism">src/app/layouts/auth-layout/auth-layout.component.ts:13</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="toggleButton"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Private</span>
+                            toggleButton</b>
+                            <a href="#toggleButton"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="18" class="link-to-prism">src/app/layouts/auth-layout/auth-layout.component.ts:18</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="updateColor"></a>
+                        <span class="name">
+                            <b>
+                            updateColor</b>
+                            <a href="#updateColor"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>() &#x3D;&gt; {...}</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="46" class="link-to-prism">src/app/layouts/auth-layout/auth-layout.component.ts:46</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+</section>
+
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Component, OnInit, OnDestroy } from &#x27;@angular/core&#x27;;
+import { Router } from &#x27;@angular/router&#x27;;
+import { ROUTES } from &#x27;../../components/sidebar/sidebar.component&#x27;;
+import { NgbModal, ModalDismissReasons } from &#x27;@ng-bootstrap/ng-bootstrap&#x27;;
+
+@Component({
+  selector: &#x27;app-auth-layout&#x27;,
+  templateUrl: &#x27;./auth-layout.component.html&#x27;,
+  styleUrls: [&#x27;./auth-layout.component.scss&#x27;]
+})
+export class AuthLayoutComponent implements OnInit, OnDestroy {
+  public menuItems: any[];
+  test: Date &#x3D; new Date();
+  closeResult: string;
+  public sidebarColor: string &#x3D; &quot;red&quot;;
+  public isCollapsed &#x3D; true;
+  mobile_menu_visible: any &#x3D; 0;
+  private toggleButton: any;
+  private sidebarVisible: boolean;
+
+  constructor(private router: Router, private modalService: NgbModal) { }
+
+  changeSidebarColor(color){
+    var sidebar &#x3D; document.getElementsByClassName(&#x27;sidebar&#x27;)[0];
+    var mainPanel &#x3D; document.getElementsByClassName(&#x27;main-panel&#x27;)[0];
+
+    this.sidebarColor &#x3D; color;
+
+    if(sidebar !&#x3D; undefined){
+        sidebar.setAttribute(&#x27;data&#x27;,color);
+    }
+    if(mainPanel !&#x3D; undefined){
+        mainPanel.setAttribute(&#x27;data&#x27;,color);
+    }
+  }
+  changeDashboardColor(color){
+    var body &#x3D; document.getElementsByTagName(&#x27;body&#x27;)[0];
+    if (body &amp;&amp; color &#x3D;&#x3D;&#x3D; &#x27;white-content&#x27;) {
+        body.classList.add(color);
+    }
+    else if(body.classList.contains(&#x27;white-content&#x27;)) {
+      body.classList.remove(&#x27;white-content&#x27;);
+    }
+  }
+  // function that adds color white/transparent to the navbar on resize (this is for the collapse)
+   updateColor &#x3D; () &#x3D;&gt; {
+   var navbar &#x3D; document.getElementsByClassName(&#x27;navbar&#x27;)[0];
+     if (window.innerWidth &lt; 993 &amp;&amp; !this.isCollapsed) {
+       navbar.classList.add(&#x27;bg-white&#x27;);
+       navbar.classList.remove(&#x27;navbar-transparent&#x27;);
+     } else {
+       navbar.classList.remove(&#x27;bg-white&#x27;);
+       navbar.classList.add(&#x27;navbar-transparent&#x27;);
+     }
+   };
+  ngOnInit() {
+    var navbar &#x3D; document.getElementsByClassName(&#x27;navbar&#x27;)[0];
+
+    window.addEventListener(&quot;resize&quot;, this.updateColor);
+    this.toggleButton &#x3D; navbar.getElementsByClassName(&quot;navbar-toggler&quot;)[0];
+    this.router.events.subscribe(event &#x3D;&gt; {
+      this.sidebarClose();
+      var $layer: any &#x3D; document.getElementsByClassName(&quot;close-layer&quot;)[0];
+      if ($layer) {
+        $layer.remove();
+        this.mobile_menu_visible &#x3D; 0;
+      }
+    });
+    this.menuItems &#x3D; ROUTES.filter(menuItem &#x3D;&gt; menuItem);
+    // on this page, we need on the body tag the classes .rtl and .menu-on-right
+    document.body.classList.add(&quot;rtl&quot;, &quot;menu-on-right&quot;);
+    // we also need the rtl bootstrap
+    // so we add it dynamically to the head
+    let head &#x3D; document.head;
+    let link &#x3D; document.createElement(&quot;link&quot;);
+    link.type &#x3D; &quot;text/css&quot;;
+    link.rel &#x3D; &quot;stylesheet&quot;;
+    link.id &#x3D; &quot;rtl-id&quot;;
+    link.href &#x3D;
+      &quot;https://cdnjs.cloudflare.com/ajax/libs/bootstrap-rtl/3.4.0/css/bootstrap-rtl.css&quot;;
+    head.appendChild(link);
+
+  }
+  ngOnDestroy() {
+    // when we exit this page, we need to delete the classes .rtl and .menu-on-right
+    // from the body tag
+    document.body.classList.remove(&quot;rtl&quot;, &quot;menu-on-right&quot;);
+    // we also need to delete the rtl bootstrap, so it does not break the other pages
+    // that do not make use of rtl
+    document.getElementById(&quot;rtl-id&quot;).remove();
+  }
+  collapse() {
+    this.isCollapsed &#x3D; !this.isCollapsed;
+    const navbar &#x3D; document.getElementsByTagName(&quot;nav&quot;)[0];
+    if (!this.isCollapsed) {
+      navbar.classList.remove(&quot;navbar-transparent&quot;);
+      navbar.classList.add(&quot;bg-white&quot;);
+    } else {
+      navbar.classList.add(&quot;navbar-transparent&quot;);
+      navbar.classList.remove(&quot;bg-white&quot;);
+    }
+  }
+
+  sidebarOpen() {
+    const toggleButton &#x3D; this.toggleButton;
+    const mainPanel &#x3D; &lt;HTMLElement&gt;(
+      document.getElementsByClassName(&quot;main-panel&quot;)[0]
+    );
+    const html &#x3D; document.getElementsByTagName(&quot;html&quot;)[0];
+    if (window.innerWidth &lt; 991) {
+      mainPanel.style.position &#x3D; &quot;fixed&quot;;
+    }
+
+    setTimeout(function() {
+      toggleButton.classList.add(&quot;toggled&quot;);
+    }, 500);
+
+    html.classList.add(&quot;nav-open&quot;);
+
+    this.sidebarVisible &#x3D; true;
+  }
+  sidebarClose() {
+    const html &#x3D; document.getElementsByTagName(&quot;html&quot;)[0];
+    this.toggleButton.classList.remove(&quot;toggled&quot;);
+    const mainPanel &#x3D; &lt;HTMLElement&gt;(
+      document.getElementsByClassName(&quot;main-panel&quot;)[0]
+    );
+
+    if (window.innerWidth &lt; 991) {
+      setTimeout(function() {
+        mainPanel.style.position &#x3D; &quot;&quot;;
+      }, 500);
+    }
+    this.sidebarVisible &#x3D; false;
+    html.classList.remove(&quot;nav-open&quot;);
+  }
+  sidebarToggle() {
+    // const toggleButton &#x3D; this.toggleButton;
+    // const html &#x3D; document.getElementsByTagName(&#x27;html&#x27;)[0];
+    var $toggle &#x3D; document.getElementsByClassName(&quot;navbar-toggler&quot;)[0];
+
+    if (this.sidebarVisible &#x3D;&#x3D;&#x3D; false) {
+      this.sidebarOpen();
+    } else {
+      this.sidebarClose();
+    }
+    const html &#x3D; document.getElementsByTagName(&quot;html&quot;)[0];
+
+    if (this.mobile_menu_visible &#x3D;&#x3D; 1) {
+      // $(&#x27;html&#x27;).removeClass(&#x27;nav-open&#x27;);
+      html.classList.remove(&quot;nav-open&quot;);
+      if ($layer) {
+        $layer.remove();
+      }
+      setTimeout(function() {
+        $toggle.classList.remove(&quot;toggled&quot;);
+      }, 400);
+
+      this.mobile_menu_visible &#x3D; 0;
+    } else {
+      setTimeout(function() {
+        $toggle.classList.add(&quot;toggled&quot;);
+      }, 430);
+
+      var $layer &#x3D; document.createElement(&quot;div&quot;);
+      $layer.setAttribute(&quot;class&quot;, &quot;close-layer&quot;);
+
+      if (html.querySelectorAll(&quot;.main-panel&quot;)) {
+        document.getElementsByClassName(&quot;main-panel&quot;)[0].appendChild($layer);
+      } else if (html.classList.contains(&quot;off-canvas-sidebar&quot;)) {
+        document
+          .getElementsByClassName(&quot;wrapper-full-page&quot;)[0]
+          .appendChild($layer);
+      }
+
+      setTimeout(function() {
+        $layer.classList.add(&quot;visible&quot;);
+      }, 100);
+
+      $layer.onclick &#x3D; function() {
+        //asign a function
+        html.classList.remove(&quot;nav-open&quot;);
+        this.mobile_menu_visible &#x3D; 0;
+        $layer.classList.remove(&quot;visible&quot;);
+        setTimeout(function() {
+          $layer.remove();
+          $toggle.classList.remove(&quot;toggled&quot;);
+        }, 400);
+      }.bind(this);
+
+      html.classList.add(&quot;nav-open&quot;);
+      this.mobile_menu_visible &#x3D; 1;
+    }
+  }
+  open(content) {
+    this.modalService.open(content, {windowClass: &#x27;modal-search&#x27;}).result.then((result) &#x3D;&gt; {
+      this.closeResult &#x3D; &#x60;Closed with: ${result}&#x60;;
+    }, (reason) &#x3D;&gt; {
+      this.closeResult &#x3D; &#x60;Dismissed ${this.getDismissReason(reason)}&#x60;;
+    });
+  }
+
+  private getDismissReason(reason: any): string {
+    if (reason &#x3D;&#x3D;&#x3D; ModalDismissReasons.ESC) {
+      return &#x27;by pressing ESC&#x27;;
+    } else if (reason &#x3D;&#x3D;&#x3D; ModalDismissReasons.BACKDROP_CLICK) {
+      return &#x27;by clicking on a backdrop&#x27;;
+    } else {
+      return  &#x60;with: ${reason}&#x60;;
+    }
+  }
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;div class&#x3D;&quot;wrapper&quot;&gt;
+  &lt;div class&#x3D;&quot;sidebar&quot;&gt;
+    &lt;div class&#x3D;&quot;logo&quot;&gt;
+      &lt;a href&#x3D;&quot;https://www.creative-tim.com?ref&#x3D;bda-auth-layout-sidebar-logo&quot; class&#x3D;&quot;simple-text logo-mini&quot;&gt;
+        &lt;div class&#x3D;&quot;logo-img&quot;&gt;
+          &lt;img src&#x3D;&quot;./assets/img/angular2-logo-white.png&quot; /&gt;
+        &lt;/div&gt;
+      &lt;/a&gt;
+      &lt;a href&#x3D;&quot;https://www.creative-tim.com?ref&#x3D;bda-auth-layout-sidebar-logo&quot; class&#x3D;&quot;simple-text logo-normal&quot;&gt;
+        الإبداعية تيم
+      &lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class&#x3D;&quot;sidebar-wrapper&quot;&gt;
+      &lt;ul class&#x3D;&quot;nav&quot;&gt;
+        &lt;li
+          routerLinkActive&#x3D;&quot;active&quot;
+          *ngFor&#x3D;&quot;let menuItem of menuItems&quot;
+          class&#x3D;&quot;{{ menuItem.class }} nav-item&quot;
+        &gt;
+          &lt;a [routerLink]&#x3D;&quot;[menuItem.path]&quot;&gt;
+            &lt;i class&#x3D;&quot;tim-icons  {{ menuItem.icon }}&quot;&gt;&lt;/i&gt;
+            &lt;p&gt;{{ menuItem.rtlTitle }}&lt;/p&gt;
+          &lt;/a&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+
+  &lt;/div&gt;
+  &lt;div class&#x3D;&quot;main-panel&quot;&gt;
+    &lt;nav class&#x3D;&quot; navbar navbar-expand-lg navbar-absolute navbar-transparent&quot;&gt;
+      &lt;div class&#x3D;&quot; container-fluid&quot;&gt;
+        &lt;div class&#x3D;&quot; navbar-wrapper&quot;&gt;
+          &lt;div class&#x3D;&quot; navbar-toggle d-inline&quot;&gt;
+            &lt;button class&#x3D;&quot; navbar-toggler&quot; type&#x3D;&quot;button&quot; (click)&#x3D;&quot;sidebarToggle()&quot;&gt;
+              &lt;span class&#x3D;&quot; navbar-toggler-bar bar1&quot;&gt; &lt;/span&gt;
+              &lt;span class&#x3D;&quot; navbar-toggler-bar bar2&quot;&gt; &lt;/span&gt;
+              &lt;span class&#x3D;&quot; navbar-toggler-bar bar3&quot;&gt; &lt;/span&gt;
+            &lt;/button&gt;
+          &lt;/div&gt;
+          &lt;a class&#x3D;&quot; navbar-brand&quot; href&#x3D;&quot;javascript:void(0)&quot;&gt; ار تي ال &lt;/a&gt;
+        &lt;/div&gt;
+        &lt;button
+          aria-label&#x3D;&quot;Toggle navigation&quot;
+          class&#x3D;&quot; navbar-toggler&quot;
+          (click)&#x3D;&quot;collapse()&quot;
+          [attr.aria-expanded]&#x3D;&quot;!isCollapsed&quot;
+          aria-controls&#x3D;&quot;collapseExample&quot;
+          id&#x3D;&quot;navigation&quot;
+          type&#x3D;&quot;button&quot;
+        &gt;
+          &lt;span class&#x3D;&quot; navbar-toggler-bar navbar-kebab&quot;&gt; &lt;/span&gt;
+          &lt;span class&#x3D;&quot; navbar-toggler-bar navbar-kebab&quot;&gt; &lt;/span&gt;
+          &lt;span class&#x3D;&quot; navbar-toggler-bar navbar-kebab&quot;&gt; &lt;/span&gt;
+        &lt;/button&gt;
+        &lt;div class&#x3D;&quot; navbar-collapse&quot; [ngbCollapse]&#x3D;&quot;isCollapsed&quot; id&#x3D;&quot;navigation&quot;&gt;
+          &lt;ul class&#x3D;&quot; navbar-nav mr-auto&quot;&gt;
+            &lt;li class&#x3D;&quot; search-bar input-group&quot;&gt;
+              &lt;button
+                class&#x3D;&quot; btn btn-link&quot;
+                data-target&#x3D;&quot;#searchModal&quot;
+                data-toggle&#x3D;&quot;modal&quot;
+                (click)&#x3D;&quot;open(content)&quot;
+                id&#x3D;&quot;search-button&quot;
+              &gt;
+                &lt;i class&#x3D;&quot; tim-icons icon-zoom-split&quot;&gt; &lt;/i&gt;
+                &lt;span class&#x3D;&quot; d-lg-none d-md-block&quot;&gt; بحث &lt;/span&gt;
+              &lt;/button&gt;
+            &lt;/li&gt;
+            &lt;li class&#x3D;&quot; nav-item&quot; ngbDropdown&gt;
+              &lt;a
+                class&#x3D;&quot; nav-link&quot;
+                data-toggle&#x3D;&quot;dropdown&quot;
+                ngbDropdownToggle
+              &gt;
+                &lt;div class&#x3D;&quot; notification d-none d-lg-block d-xl-block&quot;&gt;&lt;/div&gt;
+                &lt;i class&#x3D;&quot; tim-icons icon-sound-wave&quot;&gt; &lt;/i&gt;
+                &lt;p class&#x3D;&quot; d-lg-none&quot;&gt;إخطارات&lt;/p&gt;
+              &lt;/a&gt;
+              &lt;ul class&#x3D;&quot; dropdown-menu-right dropdown-navbar&quot; ngbDropdownMenu&gt;
+                &lt;li class&#x3D;&quot; nav-link&quot;&gt;
+                  &lt;a class&#x3D;&quot; nav-item&quot; href&#x3D;&quot;javascript:void(0)&quot; ngbDropdownItem&gt;
+                    ورد مايك جون على بريدك الإلكتروني
+                  &lt;/a&gt;
+                &lt;/li&gt;
+                &lt;li class&#x3D;&quot; nav-link&quot;&gt;
+                  &lt;a class&#x3D;&quot; nav-item&quot; href&#x3D;&quot;javascript:void(0)&quot; ngbDropdownItem&gt;
+                    لديك 5 مهام أخرى
+                  &lt;/a&gt;
+                &lt;/li&gt;
+                &lt;li class&#x3D;&quot; nav-link&quot;&gt;
+                  &lt;a class&#x3D;&quot; nav-item&quot; href&#x3D;&quot;javascript:void(0)&quot; ngbDropdownItem&gt;
+                    صديقك مايكل في المدينة
+                  &lt;/a&gt;
+                &lt;/li&gt;
+                &lt;li class&#x3D;&quot; nav-link&quot;&gt;
+                  &lt;a class&#x3D;&quot; nav-item&quot; href&#x3D;&quot;javascript:void(0)&quot; ngbDropdownItem&gt;
+                    إشعار آخر
+                  &lt;/a&gt;
+                &lt;/li&gt;
+                &lt;li class&#x3D;&quot; nav-link&quot;&gt;
+                  &lt;a class&#x3D;&quot; nav-item&quot; href&#x3D;&quot;javascript:void(0)&quot; ngbDropdownItem&gt;
+                    واحدة أخرى
+                  &lt;/a&gt;
+                &lt;/li&gt;
+              &lt;/ul&gt;
+            &lt;/li&gt;
+            &lt;li class&#x3D;&quot; nav-item&quot; ngbDropdown&gt;
+              &lt;a
+                class&#x3D;&quot; nav-link&quot;
+                data-toggle&#x3D;&quot;dropdown&quot;
+                ngbDropdownToggle
+              &gt;
+                &lt;div class&#x3D;&quot; photo&quot;&gt;
+                  &lt;img alt&#x3D;&quot;Profile Photo&quot; src&#x3D;&quot;assets/img/anime3.png&quot; /&gt;
+                &lt;/div&gt;
+                &lt;b class&#x3D;&quot; caret d-none d-lg-block d-xl-block&quot;&gt; &lt;/b&gt;
+                &lt;p class&#x3D;&quot; d-lg-none&quot;&gt;الخروج&lt;/p&gt;
+              &lt;/a&gt;
+              &lt;ul class&#x3D;&quot; dropdown-navbar&quot; ngbDropdownMenu&gt;
+                &lt;li class&#x3D;&quot; nav-link&quot;&gt;
+                  &lt;a class&#x3D;&quot; nav-item&quot; href&#x3D;&quot;javascript:void(0)&quot; ngbDropdownItem&gt;
+                    الملف الشخصي
+                  &lt;/a&gt;
+                &lt;/li&gt;
+                &lt;li class&#x3D;&quot; nav-link&quot;&gt;
+                  &lt;a class&#x3D;&quot; nav-item&quot; href&#x3D;&quot;javascript:void(0)&quot; ngbDropdownItem&gt;
+                    الإعدادات
+                  &lt;/a&gt;
+                &lt;/li&gt;
+                &lt;li class&#x3D;&quot; dropdown-divider&quot;&gt;&lt;/li&gt;
+                &lt;li class&#x3D;&quot; nav-link&quot;&gt;
+                  &lt;a class&#x3D;&quot; nav-item&quot; href&#x3D;&quot;javascript:void(0)&quot; ngbDropdownItem&gt;
+                    الخروج
+                  &lt;/a&gt;
+                &lt;/li&gt;
+              &lt;/ul&gt;
+            &lt;/li&gt;
+            &lt;li class&#x3D;&quot; separator d-lg-none&quot;&gt;&lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/nav&gt;
+    &lt;router-outlet&gt;&lt;/router-outlet&gt;
+    &lt;footer class&#x3D;&quot; footer&quot;&gt;
+      &lt;div class&#x3D;&quot; container-fluid&quot;&gt;
+        &lt;ul class&#x3D;&quot; nav&quot;&gt;
+          &lt;li class&#x3D;&quot; nav-item&quot;&gt;
+            &lt;a class&#x3D;&quot; nav-link&quot; href&#x3D;&quot;https://www.creative-tim.com?ref&#x3D;bda-auth-layout-footer&quot;&gt;
+              تيم الإبداعية
+            &lt;/a&gt;
+          &lt;/li&gt;
+          &lt;li class&#x3D;&quot; nav-item&quot;&gt;
+            &lt;a class&#x3D;&quot; nav-link&quot; href&#x3D;&quot;https://www.creative-tim.com/about-us?ref&#x3D;bda-auth-layout-footer&quot;&gt;
+              معلومات عنا
+            &lt;/a&gt;
+          &lt;/li&gt;
+          &lt;li class&#x3D;&quot; nav-item&quot;&gt;
+            &lt;a class&#x3D;&quot; nav-link&quot; href&#x3D;&quot;http://blog.creative-tim.com?ref&#x3D;bda-auth-layout-footer&quot;&gt; مدونة &lt;/a&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;div class&#x3D;&quot; copyright&quot;&gt;
+          &amp;copy; {{ test | date: &quot;yyyy&quot; }} مصنوع من
+          &lt;i class&#x3D;&quot; tim-icons icon-heart-2&quot;&gt; &lt;/i&gt; بواسطة
+          &lt;a href&#x3D;&quot;https://www.creative-tim.com?ref&#x3D;bda-auth-layout-footer&quot; target&#x3D;&quot;_blank&quot;&gt; تيم الإبداعية &lt;/a&gt;
+          من أجل شبكة أفضل.
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/footer&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class&#x3D;&quot; fixed-plugin&quot;&gt;
+  &lt;div class&#x3D;&quot; show-dropdown&quot; ngbDropdown&gt;
+    &lt;a data-toggle&#x3D;&quot;dropdown&quot; ngbDropdownToggle&gt;
+      &lt;i class&#x3D;&quot; fa fa-cog fa-2x&quot;&gt; &lt;/i&gt;
+    &lt;/a&gt;
+    &lt;ul ngbDropdownMenu&gt;
+      &lt;li class&#x3D;&quot; header-title&quot;&gt;خلفية الشريط الجانبي&lt;/li&gt;
+      &lt;li class&#x3D;&quot; adjustments-line&quot;&gt;
+        &lt;a class&#x3D;&quot; switch-trigger background-color&quot; href&#x3D;&quot;javascript:void(0)&quot;&gt;
+          &lt;div class&#x3D;&quot; badge-colors text-center&quot;&gt;
+            &lt;span
+              class&#x3D;&quot; badge filter badge-danger&quot;
+              [ngClass]&#x3D;&quot;{&#x27;active&#x27;:sidebarColor&#x3D;&#x3D;&#x3D;&#x27;red&#x27;}&quot; (click)&#x3D;&quot;changeSidebarColor(&#x27;red&#x27;)&quot;
+            &gt;
+            &lt;/span&gt;
+            &lt;span
+              class&#x3D;&quot; badge filter badge-primary&quot;
+              data-color&#x3D;&quot;primary&quot;
+              [ngClass]&#x3D;&quot;{&#x27;active&#x27;:sidebarColor&#x3D;&#x3D;&#x3D;&#x27;primary&#x27;}&quot; (click)&#x3D;&quot;changeSidebarColor(&#x27;primary&#x27;)&quot;
+            &gt;
+            &lt;/span&gt;
+            &lt;span class&#x3D;&quot; badge filter badge-info&quot; [ngClass]&#x3D;&quot;{&#x27;active&#x27;:sidebarColor&#x3D;&#x3D;&#x3D;&#x27;blue&#x27;}&quot; (click)&#x3D;&quot;changeSidebarColor(&#x27;blue&#x27;)&quot;&gt; &lt;/span&gt;
+            &lt;span class&#x3D;&quot; badge filter badge-success&quot; [ngClass]&#x3D;&quot;{&#x27;active&#x27;:sidebarColor&#x3D;&#x3D;&#x3D;&#x27;green&#x27;}&quot; (click)&#x3D;&quot;changeSidebarColor(&#x27;green&#x27;)&quot;&gt;
+            &lt;/span&gt;
+          &lt;/div&gt;
+          &lt;div class&#x3D;&quot; clearfix&quot;&gt;&lt;/div&gt;
+        &lt;/a&gt;
+      &lt;/li&gt;
+      &lt;li class&#x3D;&quot; adjustments-line text-center color-change&quot;&gt;
+        &lt;span class&#x3D;&quot; color-label&quot;&gt; وضع الضوء &lt;/span&gt;
+        &lt;span class&#x3D;&quot; badge light-badge mr-2&quot; (click)&#x3D;&quot;changeDashboardColor(&#x27;white-content&#x27;)&quot;&gt; &lt;/span&gt;
+        &lt;span class&#x3D;&quot; badge dark-badge ml-2&quot; (click)&#x3D;&quot;changeDashboardColor(&#x27;black-content&#x27;)&quot;&gt; &lt;/span&gt;
+        &lt;span class&#x3D;&quot; color-label&quot;&gt; وضع الظلام&lt;/span&gt;
+      &lt;/li&gt;
+      &lt;li class&#x3D;&quot; button-container&quot;&gt;
+        &lt;a
+          class&#x3D;&quot; btn btn-primary btn-block btn-round&quot;
+          href&#x3D;&quot;https://www.creative-tim.com/product/black-dashboard-angular?ref&#x3D;bda-auth-layout-fixed-plugin&quot;
+          target&#x3D;&quot;_blank&quot;
+        &gt;
+          التحميل الان
+        &lt;/a&gt;
+        &lt;a
+          class&#x3D;&quot; btn btn-default btn-block btn-round&quot;
+          href&#x3D;&quot;https://demos.creative-tim.com/black-dashboard-angular/#/documentation/tutorial?ref&#x3D;bda-auth-layout-fixed-plugin&quot;
+          target&#x3D;&quot;_blank&quot;
+        &gt;
+          كابل بيانات
+        &lt;/a&gt;
+      &lt;/li&gt;
+      &lt;li class&#x3D;&quot; header-title&quot;&gt;شكرا لك على 95 سهم!&lt;/li&gt;
+      &lt;li class&#x3D;&quot; button-container text-center&quot;&gt;
+        &lt;button class&#x3D;&quot; btn btn-round btn-info&quot; id&#x3D;&quot;twitter&quot;&gt;
+          &lt;i class&#x3D;&quot; fab fa-twitter&quot;&gt; &lt;/i&gt; · 45
+        &lt;/button&gt;
+        &lt;button class&#x3D;&quot; btn btn-round btn-info&quot; id&#x3D;&quot;facebook&quot;&gt;
+          &lt;i class&#x3D;&quot; fab fa-facebook-f&quot;&gt; &lt;/i&gt; · 50
+        &lt;/button&gt;
+        &lt;br /&gt;
+
+        &lt;br /&gt;
+
+        &lt;a
+          aria-label&#x3D;&quot;Star ntkme/github-buttons on GitHub&quot;
+          class&#x3D;&quot; github-button&quot;
+          data-icon&#x3D;&quot;octicon-star&quot;
+          data-show-count&#x3D;&quot;true&quot;
+          data-size&#x3D;&quot;large&quot;
+          href&#x3D;&quot;https://github.com/creativetimofficial/black-dashboard-angular?ref&#x3D;bda-auth-layout-fixed-plugin&quot;
+        &gt;
+          نجمة
+        &lt;/a&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+    &lt;ng-template #content let-modal&gt;
+      &lt;div class&#x3D;&quot; modal-header&quot;&gt;
+        &lt;input
+          class&#x3D;&quot; form-control&quot;
+          id&#x3D;&quot;inlineFormInputGroup&quot;
+          placeholder&#x3D;&quot;بحث&quot;
+          type&#x3D;&quot;text&quot;
+        /&gt;
+
+        &lt;button
+          aria-label&#x3D;&quot;Close&quot;
+          class&#x3D;&quot; close&quot;
+          data-dismiss&#x3D;&quot;modal&quot;
+          type&#x3D;&quot;button&quot;
+          (click)&#x3D;&quot;modal.dismiss(&#x27;Cross click&#x27;)&quot;
+        &gt;
+          &lt;i class&#x3D;&quot; tim-icons icon-simple-remove&quot;&gt; &lt;/i&gt;
+        &lt;/button&gt;
+      &lt;/div&gt;
+
+    &lt;/ng-template&gt;
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-styleData">
+                <p class="comment">
+                    <code>./auth-layout.component.scss</code>
+                </p>
+                <pre class="line-numbers"><code class="language-scss"></code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><div class="wrapper">  <div class="sidebar">    <div class="logo">      <a href="https://www.creative-tim.com?ref=bda-auth-layout-sidebar-logo" class="simple-text logo-mini">        <div class="logo-img">          <img src="./assets/img/angular2-logo-white.png" />        </div>      </a>      <a href="https://www.creative-tim.com?ref=bda-auth-layout-sidebar-logo" class="simple-text logo-normal">        الإبداعية تيم      </a>    </div>    <div class="sidebar-wrapper">      <ul class="nav">        <li          routerLinkActive="active"          *ngFor="let menuItem of menuItems"          class="{{ menuItem.class }} nav-item"        >          <a [routerLink]="[menuItem.path]">            <i class="tim-icons  {{ menuItem.icon }}"></i>            <p>{{ menuItem.rtlTitle }}</p>          </a>        </li>      </ul>    </div>  </div>  <div class="main-panel">    <nav class=" navbar navbar-expand-lg navbar-absolute navbar-transparent">      <div class=" container-fluid">        <div class=" navbar-wrapper">          <div class=" navbar-toggle d-inline">            <button class=" navbar-toggler" type="button" (click)="sidebarToggle()">              <span class=" navbar-toggler-bar bar1"> </span>              <span class=" navbar-toggler-bar bar2"> </span>              <span class=" navbar-toggler-bar bar3"> </span>            </button>          </div>          <a class=" navbar-brand" href="javascript:void(0)"> ار تي ال </a>        </div>        <button          aria-label="Toggle navigation"          class=" navbar-toggler"          (click)="collapse()"          [attr.aria-expanded]="!isCollapsed"          aria-controls="collapseExample"          id="navigation"          type="button"        >          <span class=" navbar-toggler-bar navbar-kebab"> </span>          <span class=" navbar-toggler-bar navbar-kebab"> </span>          <span class=" navbar-toggler-bar navbar-kebab"> </span>        </button>        <div class=" navbar-collapse" [ngbCollapse]="isCollapsed" id="navigation">          <ul class=" navbar-nav mr-auto">            <li class=" search-bar input-group">              <button                class=" btn btn-link"                data-target="#searchModal"                data-toggle="modal"                (click)="open(content)"                id="search-button"              >                <i class=" tim-icons icon-zoom-split"> </i>                <span class=" d-lg-none d-md-block"> بحث </span>              </button>            </li>            <li class=" nav-item" ngbDropdown>              <a                class=" nav-link"                data-toggle="dropdown"                ngbDropdownToggle              >                <div class=" notification d-none d-lg-block d-xl-block"></div>                <i class=" tim-icons icon-sound-wave"> </i>                <p class=" d-lg-none">إخطارات</p>              </a>              <ul class=" dropdown-menu-right dropdown-navbar" ngbDropdownMenu>                <li class=" nav-link">                  <a class=" nav-item" href="javascript:void(0)" ngbDropdownItem>                    ورد مايك جون على بريدك الإلكتروني                  </a>                </li>                <li class=" nav-link">                  <a class=" nav-item" href="javascript:void(0)" ngbDropdownItem>                    لديك 5 مهام أخرى                  </a>                </li>                <li class=" nav-link">                  <a class=" nav-item" href="javascript:void(0)" ngbDropdownItem>                    صديقك مايكل في المدينة                  </a>                </li>                <li class=" nav-link">                  <a class=" nav-item" href="javascript:void(0)" ngbDropdownItem>                    إشعار آخر                  </a>                </li>                <li class=" nav-link">                  <a class=" nav-item" href="javascript:void(0)" ngbDropdownItem>                    واحدة أخرى                  </a>                </li>              </ul>            </li>            <li class=" nav-item" ngbDropdown>              <a                class=" nav-link"                data-toggle="dropdown"                ngbDropdownToggle              >                <div class=" photo">                  <img alt="Profile Photo" src="assets/img/anime3.png" />                </div>                <b class=" caret d-none d-lg-block d-xl-block"> </b>                <p class=" d-lg-none">الخروج</p>              </a>              <ul class=" dropdown-navbar" ngbDropdownMenu>                <li class=" nav-link">                  <a class=" nav-item" href="javascript:void(0)" ngbDropdownItem>                    الملف الشخصي                  </a>                </li>                <li class=" nav-link">                  <a class=" nav-item" href="javascript:void(0)" ngbDropdownItem>                    الإعدادات                  </a>                </li>                <li class=" dropdown-divider"></li>                <li class=" nav-link">                  <a class=" nav-item" href="javascript:void(0)" ngbDropdownItem>                    الخروج                  </a>                </li>              </ul>            </li>            <li class=" separator d-lg-none"></li>          </ul>        </div>      </div>    </nav>    <router-outlet></router-outlet>    <footer class=" footer">      <div class=" container-fluid">        <ul class=" nav">          <li class=" nav-item">            <a class=" nav-link" href="https://www.creative-tim.com?ref=bda-auth-layout-footer">              تيم الإبداعية            </a>          </li>          <li class=" nav-item">            <a class=" nav-link" href="https://www.creative-tim.com/about-us?ref=bda-auth-layout-footer">              معلومات عنا            </a>          </li>          <li class=" nav-item">            <a class=" nav-link" href="http://blog.creative-tim.com?ref=bda-auth-layout-footer"> مدونة </a>          </li>        </ul>        <div class=" copyright">          &copy; {{ test | date: "yyyy" }} مصنوع من          <i class=" tim-icons icon-heart-2"> </i> بواسطة          <a href="https://www.creative-tim.com?ref=bda-auth-layout-footer" target="_blank"> تيم الإبداعية </a>          من أجل شبكة أفضل.        </div>      </div>    </footer>  </div></div><div class=" fixed-plugin">  <div class=" show-dropdown" ngbDropdown>    <a data-toggle="dropdown" ngbDropdownToggle>      <i class=" fa fa-cog fa-2x"> </i>    </a>    <ul ngbDropdownMenu>      <li class=" header-title">خلفية الشريط الجانبي</li>      <li class=" adjustments-line">        <a class=" switch-trigger background-color" href="javascript:void(0)">          <div class=" badge-colors text-center">            <span              class=" badge filter badge-danger"              [ngClass]="{\'active\':sidebarColor===\'red\'}" (click)="changeSidebarColor(\'red\')"            >            </span>            <span              class=" badge filter badge-primary"              data-color="primary"              [ngClass]="{\'active\':sidebarColor===\'primary\'}" (click)="changeSidebarColor(\'primary\')"            >            </span>            <span class=" badge filter badge-info" [ngClass]="{\'active\':sidebarColor===\'blue\'}" (click)="changeSidebarColor(\'blue\')"> </span>            <span class=" badge filter badge-success" [ngClass]="{\'active\':sidebarColor===\'green\'}" (click)="changeSidebarColor(\'green\')">            </span>          </div>          <div class=" clearfix"></div>        </a>      </li>      <li class=" adjustments-line text-center color-change">        <span class=" color-label"> وضع الضوء </span>        <span class=" badge light-badge mr-2" (click)="changeDashboardColor(\'white-content\')"> </span>        <span class=" badge dark-badge ml-2" (click)="changeDashboardColor(\'black-content\')"> </span>        <span class=" color-label"> وضع الظلام</span>      </li>      <li class=" button-container">        <a          class=" btn btn-primary btn-block btn-round"          href="https://www.creative-tim.com/product/black-dashboard-angular?ref=bda-auth-layout-fixed-plugin"          target="_blank"        >          التحميل الان        </a>        <a          class=" btn btn-default btn-block btn-round"          href="https://demos.creative-tim.com/black-dashboard-angular/#/documentation/tutorial?ref=bda-auth-layout-fixed-plugin"          target="_blank"        >          كابل بيانات        </a>      </li>      <li class=" header-title">شكرا لك على 95 سهم!</li>      <li class=" button-container text-center">        <button class=" btn btn-round btn-info" id="twitter">          <i class=" fab fa-twitter"> </i> · 45        </button>        <button class=" btn btn-round btn-info" id="facebook">          <i class=" fab fa-facebook-f"> </i> · 50        </button>        <br />        <br />        <a          aria-label="Star ntkme/github-buttons on GitHub"          class=" github-button"          data-icon="octicon-star"          data-show-count="true"          data-size="large"          href="https://github.com/creativetimofficial/black-dashboard-angular?ref=bda-auth-layout-fixed-plugin"        >          نجمة        </a>      </li>    </ul>  </div></div>    <ng-template #content let-modal>      <div class=" modal-header">        <input          class=" form-control"          id="inlineFormInputGroup"          placeholder="بحث"          type="text"        />        <button          aria-label="Close"          class=" close"          data-dismiss="modal"          type="button"          (click)="modal.dismiss(\'Cross click\')"        >          <i class=" tim-icons icon-simple-remove"> </i>        </button>      </div>    </ng-template></div>'
+    var COMPONENTS = [{'name': 'AdminLayoutComponent', 'selector': 'app-admin-layout'},{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'AuthLayoutComponent', 'selector': 'app-auth-layout'},{'name': 'ClinicComponent', 'selector': 'app-clinic'},{'name': 'ClinicsComponent', 'selector': 'app-clinics'},{'name': 'DashboardComponent', 'selector': 'app-dashboard'},{'name': 'FooterComponent', 'selector': 'app-footer'},{'name': 'LoginComponent', 'selector': 'app-login'},{'name': 'MedicalsheetComponent', 'selector': 'app-map'},{'name': 'NavbarComponent', 'selector': 'app-navbar'},{'name': 'PatientsComponent', 'selector': 'app-icons'},{'name': 'RegisterComponent', 'selector': 'app-register'},{'name': 'ReportsComponent', 'selector': 'app-tables'},{'name': 'RtlComponent', 'selector': 'app-rtl'},{'name': 'SidebarComponent', 'selector': 'app-sidebar'},{'name': 'SpecialistsComponent', 'selector': 'app-typography'},{'name': 'TreatmentsComponent', 'selector': 'app-notifications'},{'name': 'UserComponent', 'selector': 'app-user'}];
+    var DIRECTIVES = [];
+    var ACTUAL_COMPONENT = {'name': 'AuthLayoutComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+                   
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> result-matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'AuthLayoutComponent.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+       <!-- Required to polyfill modern browsers as code is ES5 for IE... -->
+       <script src="../js/libs/custom-elements-es5-adapter.js" charset="utf-8" defer></script>
+       <script src="../js/menu-wc.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>
