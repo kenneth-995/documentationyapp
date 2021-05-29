@@ -391,8 +391,8 @@
 
             <tr>
                 <td class="col-md-4">
-                    <div class="io-line">Defined in <a href="" data-line="196"
-                            class="link-to-prism">src/app/pages/specialists/specialists.component.ts:196</a></div>
+                    <div class="io-line">Defined in <a href="" data-line="198"
+                            class="link-to-prism">src/app/pages/specialists/specialists.component.ts:198</a></div>
                 </td>
             </tr>
 
@@ -475,8 +475,8 @@
 
             <tr>
                 <td class="col-md-4">
-                    <div class="io-line">Defined in <a href="" data-line="217"
-                            class="link-to-prism">src/app/pages/specialists/specialists.component.ts:217</a></div>
+                    <div class="io-line">Defined in <a href="" data-line="219"
+                            class="link-to-prism">src/app/pages/specialists/specialists.component.ts:219</a></div>
                 </td>
             </tr>
 
@@ -586,8 +586,8 @@
 
             <tr>
                 <td class="col-md-4">
-                    <div class="io-line">Defined in <a href="" data-line="127"
-                            class="link-to-prism">src/app/pages/specialists/specialists.component.ts:127</a></div>
+                    <div class="io-line">Defined in <a href="" data-line="129"
+                            class="link-to-prism">src/app/pages/specialists/specialists.component.ts:129</a></div>
                 </td>
             </tr>
 
@@ -627,8 +627,8 @@
 
             <tr>
                 <td class="col-md-4">
-                    <div class="io-line">Defined in <a href="" data-line="182"
-                            class="link-to-prism">src/app/pages/specialists/specialists.component.ts:182</a></div>
+                    <div class="io-line">Defined in <a href="" data-line="184"
+                            class="link-to-prism">src/app/pages/specialists/specialists.component.ts:184</a></div>
                 </td>
             </tr>
 
@@ -693,8 +693,8 @@
 
             <tr>
                 <td class="col-md-4">
-                    <div class="io-line">Defined in <a href="" data-line="232"
-                            class="link-to-prism">src/app/pages/specialists/specialists.component.ts:232</a></div>
+                    <div class="io-line">Defined in <a href="" data-line="234"
+                            class="link-to-prism">src/app/pages/specialists/specialists.component.ts:234</a></div>
                 </td>
             </tr>
 
@@ -773,8 +773,8 @@
 
             <tr>
                 <td class="col-md-4">
-                    <div class="io-line">Defined in <a href="" data-line="116"
-                            class="link-to-prism">src/app/pages/specialists/specialists.component.ts:116</a></div>
+                    <div class="io-line">Defined in <a href="" data-line="118"
+                            class="link-to-prism">src/app/pages/specialists/specialists.component.ts:118</a></div>
                 </td>
             </tr>
 
@@ -814,8 +814,8 @@
 
             <tr>
                 <td class="col-md-4">
-                    <div class="io-line">Defined in <a href="" data-line="186"
-                            class="link-to-prism">src/app/pages/specialists/specialists.component.ts:186</a></div>
+                    <div class="io-line">Defined in <a href="" data-line="188"
+                            class="link-to-prism">src/app/pages/specialists/specialists.component.ts:188</a></div>
                 </td>
             </tr>
 
@@ -898,8 +898,8 @@
 
             <tr>
                 <td class="col-md-4">
-                    <div class="io-line">Defined in <a href="" data-line="205"
-                            class="link-to-prism">src/app/pages/specialists/specialists.component.ts:205</a></div>
+                    <div class="io-line">Defined in <a href="" data-line="207"
+                            class="link-to-prism">src/app/pages/specialists/specialists.component.ts:207</a></div>
                 </td>
             </tr>
 
@@ -1555,6 +1555,7 @@ export class SpecialistsComponent implements OnInit {
             (res: User[]) &#x3D;&gt; {
               this.specialists &#x3D; res;
               this.specialistsAux &#x3D; res;
+              this.isSpecialists &#x3D; this.specialists.length&gt;0;
             }
           );
 
@@ -1572,6 +1573,7 @@ export class SpecialistsComponent implements OnInit {
               (res: User[]) &#x3D;&gt; {
                 this.specialists &#x3D; res;
                 this.specialistsAux &#x3D; res;
+                this.isSpecialists &#x3D; this.specialists.length&gt;0;
               }
             );
           this.clinicService.getClinic(this.userLogged.clinicId).pipe(takeUntil(this.destroy$)).subscribe(
